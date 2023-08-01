@@ -1,6 +1,9 @@
 :root{
     --orange:#ffa500;
 }
+body{
+    background-color: #eee;
+}
 
 html{
     font-size: 62.5%;
@@ -8,10 +11,6 @@ html{
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
 }
-body{
-    background-color: #eee;
-}
-
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0;
@@ -183,4 +182,14 @@ section .imgbanner{
 .sidebar .sidebar_options ul{
     font-size: 2.5rem;
     color: #ffa500;
+}
+.sidebar .sidebar_options{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    align-items: center;
+}
+.sidebar .sidebar_options .image2{
+    flex: 1 1 40rem; 
+    width: 100%;  
 }
