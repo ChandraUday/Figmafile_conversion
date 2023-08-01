@@ -8,6 +8,10 @@ html{
     scroll-padding-top: 6rem;
     scroll-behavior: smooth;
 }
+body{
+    background-color: #eee;
+}
+
 *{
     font-family: 'Nunito', sans-serif;
     margin: 0;
